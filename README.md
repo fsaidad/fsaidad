@@ -1,43 +1,39 @@
 # Dmitry Mikhailov
 
-Frontend-heavy Full-Stack Engineer focused on React, Next.js, TypeScript, Node.js and production-quality interfaces.
+**React / Next.js / TypeScript developer** for responsive interfaces, API integrations and focused website fixes.
 
-I build responsive web products end to end: UI architecture, API integrations, real-time flows, tests, performance, SEO and deployment. I have about three years of commercial web-development experience and work remotely from Russia as a registered self-employed contractor (NPD).
+I reproduce the problem, agree on a small scope and acceptance criteria, implement the change in Git, verify the result and provide a short handover. Open to remote frontend roles and paid project work. Based in Kemerovo, Russia; self-employed contractor.
 
-## Selected work
+## See the work
 
-### Voxel Drop 3D
+### Voxel Drop 3D - interactive frontend
 
-Production-oriented browser game built with React, Three.js and TypeScript. The project demonstrates interactive 3D UI, responsive controls and a product-style visual experience.
+[![Voxel Drop: actual gameplay screen](voxel-drop-preview.png)](https://voxel-drop-3d.vercel.app/)
 
-[Live demo](https://voxel-drop-3d.vercel.app/)
+My own React/TypeScript/Three.js browser puzzle: a deterministic game engine, camera-relative controls, local progress and automated checks. A practical example of complex UI state and interactive 3D.
 
-### Async URL Checker
+[Play demo](https://voxel-drop-3d.vercel.app/) · [Source](https://github.com/fsaidad/voxel-drop-3d) · [English walkthrough](VOXEL-DROP-CASE-EN.md)
 
-Full-stack batch-processing application built with NestJS, React, Redux Toolkit and Docker. It includes bounded concurrency, cancellation, progress reporting and automated tests.
+### Async URL Checker - tested integration and state handling
 
-[Source code](https://github.com/fsaidad/async-url-checker)
+A NestJS + React/RTK Query technical assignment with bounded concurrency, cancellation, progress reporting, Docker and automated tests. The README explains in-memory storage and deployment limitations.
 
-### GameAtlas — in progress
+[Source and setup](https://github.com/fsaidad/async-url-checker) · [Engineering case](ASYNC-URL-CHECKER-CASE-EN.md)
 
-Multilingual game-discovery product with structured content, technical SEO, comparison flows and an operator-oriented control surface. Built with Next.js, React and strict TypeScript. Public case study and demo are being prepared.
+These public examples are independent projects and a technical assignment. They are separate from my commercial client work.
 
-## Commercial experience
+## Commercial background
 
-- Delivered two multilingual commercial projects covering about 5,000 pages and more than 10 locales.
-- Built a JavaScript content pipeline and validation tooling that checked more than one million internal links.
-- Improved key mobile and desktop templates to Lighthouse scores of 95–100.
-- Built React/Next.js interfaces, API integrations, authentication, state management and automated tests.
-- Optimized an interface with more than 1,000 interactive items, reducing unnecessary re-renders by about 85%.
+- **Jan-Jul 2026 - frontend/content delivery under NDA:** two multilingual projects, around 5,000 pages in 10+ locales; JavaScript/Markdown processing, internal-link validation and technical SEO.
+- **Aug 2023-Apr 2026 - independent client projects:** React/Next.js interfaces, Figma implementation, API integration, client state, performance profiling and Jest/Vitest tests. These periods partly overlap.
+- [Client feedback on Kwork](https://kwork.ru/user/fsaidad#reviews): two completed orders with positive reviews for urgent web work and clear delivery steps.
 
-## What I am looking for
+## Work with me
 
-- Remote frontend or frontend-heavy full-stack roles.
-- Product teams working with gaming/iGaming, real-time interfaces, dashboards, SEO-heavy platforms or interactive web experiences.
-- Full-time B2B, project-based work or a paid pilot with a clearly defined scope.
-
-## Contact
+Send the problem, expected result, reproduction steps and relevant code or screenshots. We can agree on one paid task or milestone with a defined handover.
 
 - Email: [fsaidad54673@ya.ru](mailto:fsaidad54673@ya.ru)
 - Telegram: [@core_broken](https://t.me/core_broken)
-- Location: Kemerovo, Russia · remote
+- [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
+- Location: Kemerovo, Russia · UTC+7 · remote
+- English: A2; written communication preferred
