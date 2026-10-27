@@ -40,5 +40,6 @@ Send the problem, expected result, reproduction steps and relevant code or scree
 - Telegram: [@core_broken](https://t.me/core_broken)
 - [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
 - Location: Kemerovo, Russia · UTC+7 · remote
-- English: A2; written communication preferred
+- English: B1; written communication preferred
+
 
