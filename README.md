@@ -2,7 +2,9 @@
 
 **React / Next.js / TypeScript developer** for responsive interfaces, API integrations and focused website fixes.
 
-I reproduce the problem, agree on a small scope and acceptance criteria, implement the change in Git, verify the result and provide a short handover. Open to remote frontend roles and paid project work. Based in Kemerovo, Russia; self-employed contractor.
+I take a defined task from reproduction to a verified patch, with agreed acceptance criteria and a clear handover. Open to remote frontend roles and paid milestones; based in Kemerovo, Russia (UTC+7), self-employed.
+
+[Interactive demo](https://voxel-drop-3d.vercel.app/) · [API and state case](ASYNC-URL-CHECKER-CASE-EN.md) · [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
 
 ## See the work
 
@@ -39,3 +41,4 @@ Send the problem, expected result, reproduction steps and relevant code or scree
 - [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
 - Location: Kemerovo, Russia · UTC+7 · remote
 - English: A2; written communication preferred
+
