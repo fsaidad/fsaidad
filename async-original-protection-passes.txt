@@ -1,0 +1,13 @@
+
+> @url-checker/web@1.0.0 test
+> vitest run src/app/App.spec.tsx -t does not carry a late cancel state
+
+
+ RUN  v4.1.10 <project>/apps/web
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed | 7 skipped (8)
+   Start at  03:48:07
+   Duration  2.07s (transform 311ms, setup 297ms, import 616ms, tests 181ms, environment 811ms)
+

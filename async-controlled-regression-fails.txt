@@ -1,0 +1,291 @@
+
+> @url-checker/web@1.0.0 test
+> vitest run src/app/App.spec.tsx -t does not carry a late cancel state
+
+
+ RUN  v4.1.10 <project>/apps/web
+
+ ❯ src/app/App.spec.tsx (8 tests | 1 failed | 7 skipped) 232ms
+     × does not carry a late cancel state into a newly selected cached job 229ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/App.spec.tsx > jobs UI > does not carry a late cancel state into a newly selected cached job
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Cancel job"
+
+Here are the accessible roles:
+
+  button:
+
+  Name "Cancelling…":
+  <button
+    class="_button_3a5acd _danger_3a5acd"
+    disabled=""
+    type="button"
+  />
+
+  --------------------------------------------------
+  progressbar:
+
+  Name "Job progress: 0 of 1":
+  <progress
+    aria-label="Job progress: 0 of 1"
+    aria-valuemax="1"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class="_progress_ba36e5"
+    max="1"
+    value="0"
+  />
+
+  --------------------------------------------------
+  table:
+
+  Name "":
+  <table
+    class="_table_ba36e5"
+  />
+
+  --------------------------------------------------
+  rowgroup:
+
+  Name "":
+  <thead />
+
+  Name "":
+  <tbody />
+
+  --------------------------------------------------
+  row:
+
+  Name "URL Result HTTP Duration Error":
+  <tr />
+
+  Name "https://new-cancel-job.test In progress — — —":
+  <tr />
+
+  --------------------------------------------------
+  columnheader:
+
+  Name "URL":
+  <th
+    scope="col"
+  />
+
+  Name "Result":
+  <th
+    scope="col"
+  />
+
+  Name "HTTP":
+  <th
+    scope="col"
+  />
+
+  Name "Duration":
+  <th
+    scope="col"
+  />
+
+  Name "Error":
+  <th
+    scope="col"
+  />
+
+  --------------------------------------------------
+  cell:
+
+  Name "https://new-cancel-job.test":
+  <td />
+
+  Name "In progress":
+  <td />
+
+  Name "—":
+  <td />
+
+  Name "—":
+  <td />
+
+  Name "—":
+  <td
+    class="_errorText_ba36e5"
+  />
+
+  --------------------------------------------------
+  link:
+
+  Name "https://new-cancel-job.test":
+  <a
+    class="_url_ba36e5"
+    href="https://new-cancel-job.test"
+    rel="noreferrer"
+    target="_blank"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <div
+      data-job-id="new-cancel-job"
+      data-testid="job-details"
+    >
+      <div
+        class="_header_ba36e5"
+      >
+        <div
+          class="_headingMeta_ba36e5"
+        >
+          <span>
+            <span
+              class="_badge_8122e6 _in_progress_8122e6"
+              data-icon="↻"
+            >
+              In progress
+            </span>
+          </span>
+          <span
+            class="_jobId_ba36e5"
+          >
+            new-cancel-job
+          </span>
+        </div>
+        <div>
+          <button
+            class="_button_3a5acd _danger_3a5acd"
+            disabled=""
+            type="button"
+          >
+            Cancelling…
+          </button>
+        </div>
+      </div>
+      <div
+        class="_progressLabel_ba36e5"
+      >
+        <span>
+          Progress
+        </span>
+        <span>
+          0
+          /
+          1
+        </span>
+      </div>
+      <progress
+        aria-label="Job progress: 0 of 1"
+        aria-valuemax="1"
+        aria-valuemin="0"
+        aria-valuenow="0"
+        class="_progress_ba36e5"
+        max="1"
+        value="0"
+      />
+      <div
+        class="_tableWrap_ba36e5"
+      >
+        <table
+          class="_table_ba36e5"
+        >
+          <thead>
+            <tr>
+              <th
+                scope="col"
+              >
+                URL
+              </th>
+              <th
+                scope="col"
+              >
+                Result
+              </th>
+              <th
+                scope="col"
+              >
+                HTTP
+              </th>
+              <th
+                scope="col"
+              >
+                Duration
+              </th>
+              <th
+                scope="col"
+              >
+                Error
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a
+                  class="_url_ba36e5"
+                  href="https://new-cancel-job.test"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  https://new-cancel-job.test
+                </a>
+              </td>
+              <td>
+                <span
+                  class="_resultStatus_ba36e5 _in_progress_ba36e5"
+                  data-icon="↻"
+                >
+                  In progress
+                </span>
+              </td>
+              <td>
+                —
+              </td>
+              <td>
+                —
+              </td>
+              <td
+                class="_errorText_ba36e5"
+              >
+                —
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <span
+        aria-live="polite"
+        class="_muted_ba36e5"
+      >
+        Updates automatically while this job is running.
+      </span>
+    </div>
+  </div>
+</body>
+ ❯ Object.getElementError ../../node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../../node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../../node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../../node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/App.spec.tsx:230:19
+    228|     });
+    229|     expect(screen.getByTestId('job-details')).toHaveAttribute('data-jo…
+    230|     expect(screen.getByRole('button', { name: 'Cancel job' })).toBeEna…
+       |                   ^
+    231|
+    232|     await act(async () => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 7 skipped (8)
+   Start at  03:48:04
+   Duration  2.09s (transform 302ms, setup 275ms, import 592ms, tests 232ms, environment 825ms)
+
+npm error Lifecycle script `test` failed with error:
+npm error code 1
+npm error path <project>\apps\web
+npm error workspace @url-checker/web@1.0.0
+npm error location <project>\apps\web
+npm error command failed
+npm error command cmd.exe /d /s /c vitest run src/app/App.spec.tsx -t ^^^"does^^^ not^^^ carry^^^ a^^^ late^^^ cancel^^^ state^^^"

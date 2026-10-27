@@ -16,9 +16,11 @@ My own React/TypeScript/Three.js browser puzzle: a deterministic game engine, ca
 
 ### Async URL Checker - tested integration and state handling
 
+[![Async URL Checker: real local run with HTTP 200, HTTP 404 and a timeout](async-url-checker-preview.png)](ASYNC-URL-CHECKER-CASE-EN.md)
+
 A NestJS + React/RTK Query technical assignment with bounded concurrency, cancellation, progress reporting, Docker and automated tests. The README explains in-memory storage and deployment limitations.
 
-[Source and setup](https://github.com/fsaidad/async-url-checker) · [Engineering case](ASYNC-URL-CHECKER-CASE-EN.md)
+[Source and setup](https://github.com/fsaidad/async-url-checker) · [Engineering case](ASYNC-URL-CHECKER-CASE-EN.md) · [Reproducible React regression example](REACT-ASYNC-REGRESSION-EN.md)
 
 These public examples are independent projects and a technical assignment. They are separate from my commercial client work.
 
