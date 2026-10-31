@@ -8,6 +8,14 @@ I take a defined task from reproduction to a verified patch, with agreed accepta
 
 ## See the work
 
+### Horizon Walk - atmospheric 3D exploration
+
+[![Horizon Walk: actual in-game photo](horizon-walk-preview.png)](https://horizon-walk.vercel.app/)
+
+My own browser exploration game built with TypeScript and Three.js/WebGL2: procedural landscapes, movement and collisions, weather, quality settings, photo mode and persistent discoveries. It includes a repeatable route and frame-time measurements for investigating performance.
+
+[Play demo](https://horizon-walk.vercel.app/) · [Project overview](HORIZON-WALK-CASE-EN.md)
+
 ### Voxel Drop 3D - interactive frontend
 
 [![Voxel Drop: actual gameplay screen](voxel-drop-preview.png)](https://voxel-drop-3d.vercel.app/)
@@ -41,5 +49,6 @@ Send the problem, expected result, reproduction steps and relevant code or scree
 - [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
 - Location: Kemerovo, Russia · UTC+7 · remote
 - English: B1; written communication preferred
+
 
 
