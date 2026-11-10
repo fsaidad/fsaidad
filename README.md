@@ -10,7 +10,7 @@ I take a defined task from reproduction to a verified patch, with agreed accepta
 
 ### Horizon Walk - atmospheric 3D exploration
 
-[![Horizon Walk: actual in-game photo](horizon-walk-preview.png)](https://horizon-walk.vercel.app/)
+[![Horizon Walk: actual in-game photo](horizon-walk-preview.png?v=20261110)](https://horizon-walk.vercel.app/)
 
 My own first-person browser exploration game built with TypeScript and Three.js/WebGL2. Procedural forests, lakes and streams, weather and seasonal world variants, walking and swimming, optional bunny hopping, interactive objects, persistent discoveries, bookmarked places and PNG photo mode. The project also includes chunk streaming, distance-based detail settings and repeatable performance reports.
 
