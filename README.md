@@ -12,7 +12,7 @@ I take a defined task from reproduction to a verified patch, with agreed accepta
 
 [![Horizon Walk: actual in-game photo](horizon-walk-preview.png)](https://horizon-walk.vercel.app/)
 
-My own browser exploration game built with TypeScript and Three.js/WebGL2: procedural landscapes, movement and collisions, weather, quality settings, photo mode and persistent discoveries. It includes a repeatable route and frame-time measurements for investigating performance.
+My own first-person browser exploration game built with TypeScript and Three.js/WebGL2. Procedural forests, lakes and streams, weather and seasonal world variants, walking and swimming, optional bunny hopping, interactive objects, persistent discoveries, bookmarked places and PNG photo mode. The project also includes chunk streaming, distance-based detail settings and repeatable performance reports.
 
 [Play demo](https://horizon-walk.vercel.app/) · [Project overview](HORIZON-WALK-CASE-EN.md)
 
@@ -49,6 +49,7 @@ Send the problem, expected result, reproduction steps and relevant code or scree
 - [Public CV](Dmitry_Mikhailov_CV_EN_PUBLIC.pdf)
 - Location: Kemerovo, Russia · UTC+7 · remote
 - English: B1; written communication preferred
+
 
 
 
